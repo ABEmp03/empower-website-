@@ -48,10 +48,10 @@ const Seeker = () => {
                     className='one  text-[#000] font-normal text-[12px] tracking-[1px] inlineblock px[22px] py-[10px] rounded-[50px] [transition:0.5s] m-[10px] border-[0px] border-[solid] border[#ffffff] text-center w-[195px] flex justify-start items-center gap-2 hover:underline hoverborder-[#1d83b3]'
                   >
                     <Image
-                      src='https://www.empowerprofessionals.com/img/ico_right.svg'
-                      width={15}
-                      height={15}
-                      alt=''
+                      src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAj0lEQVR4nO3YsQnDMBBA0Z8sEJO0tz+eII3JACkcu3DnYRIM2iCFdcd/oFbwOSSEQJIkSerUCDyBG8nNwBd4Z48JYG8xR9SdxKJqzMeYjifzILGyMYsxlSdzAda24ZlrBoZ/Qq7t4KUPOUtUOPRR4RoOIzpR4vEYFZ7zYUQnSkzisFX5fHgBU/YISZIkkcsPwUZ+ckKpJNQAAAAASUVORK5CYII='
+                      width={22}
+                      height={22}
+                      alt='k'
                     />
                     <span>FIND OUT MORE</span>
                   </Link>
@@ -91,10 +91,10 @@ const Seeker = () => {
                     className='one  text-[#000] font-normal text-[12px] tracking-[1px] inlineblock px[22px] py-[10px] rounded-[50px] [transition:0.5s] m-[10px] border-[0px] border-[solid] border[#ffffff] text-center w-[195px] flex justify-start items-center gap-2 hover:underline hoverborder-[#1d83b3] '
                   >
                     <Image
-                      src='https://www.empowerprofessionals.com/img/ico_right.svg'
-                      width={15}
-                      height={15}
-                      alt=''
+                      src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAj0lEQVR4nO3YsQnDMBBA0Z8sEJO0tz+eII3JACkcu3DnYRIM2iCFdcd/oFbwOSSEQJIkSerUCDyBG8nNwBd4Z48JYG8xR9SdxKJqzMeYjifzILGyMYsxlSdzAda24ZlrBoZ/Qq7t4KUPOUtUOPRR4RoOIzpR4vEYFZ7zYUQnSkzisFX5fHgBU/YISZIkkcsPwUZ+ckKpJNQAAAAASUVORK5CYII='
+                      width={22}
+                      height={22}
+                      alt='k'
                     />
                     <span>FIND OUT MORE</span>
                   </Link>
