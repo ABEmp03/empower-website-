@@ -10,8 +10,8 @@ import logo from './assets/logosmall.png'
 import Link from 'next/link'
 function Footer () {
   return (
-    <div className='flex flex-col justify-between bg-[#000000] text-[#fff] h-[355px] items-center pr-[100px] text-[14px]  max-md:h-full  max-md:pr-0'>
-      <div className='footerTags  max-md:p-4 flex justify-between  mt-[50px]  max-md:flex-wrap max-md:gap-10'>
+    <div className='flex flex-col justify-between bg-[#000000] text-[#fff] h-full items-center pr[100px] text-[14px]  max-md:h-full  max-md:pr-0'>
+      <div className='footerTags  max-md:p-4 flex justify-center  mt-[50px] flex-wrap gap-8 w-[100%]'>
         <div className='ml-[50px] max-md:ml-0'>
           <h5 className='text-blue-400 font-bold'>COMPANY</h5>
           <ul className='grid grid-cols-2 gap-'>
@@ -45,17 +45,40 @@ function Footer () {
             </Link>
           </ul>
         </div>
-        <div className='pl-[150px]  max-md:pl-0'>
-          <h5 className='text-blue-400 font-bold pb-[20px]'>CONTACT INFO</h5>
-          <p className='pb-[20px]'>ContactUs@empowerprofessionals.com</p>
-          <p className='pb-[20px]'>732-356-8008</p>
-          <p className='pb-[20px]'>Mon-Fri: 8:00 AM - 5:00 PM</p>
-        </div>
-        <div className='pl-[100px] mr-[50px] max-md:mr-0 max-md:pl-0'>
-          <h5 className='text-blue-400 font-bold pb-[20px]'>OFFICE</h5>
-          <p className='w-[200px] pb-[20px]'>100 Franklin Square Drive.</p>
-          <p className='pb-[20px]'> Suite #104, Somerset,</p>
-          <p className='pb-[20px]'>NJ 08873</p>
+        <div className='flex flex-wrap justify-start items-start w-[50%] gap-8'>
+          <div className='pl[150px]  max-md:pl-0 w-[47%]'>
+            <h5 className='text-blue-400 font-bold pb-[20px]'>CONTACT INFO</h5>
+            <p className='pb-[20px]'>ContactUs@empowerprofessionals.com</p>
+            <p className='pb-[20px]'>732-356-8008</p>
+            <p className='pb-[20px]'>Mon-Fri: 8:00 AM - 5:00 PM</p>
+          </div>
+
+          <div className='pl[100px] mr[50px] max-md:mr-0 max-md:pl-0'>
+            <h5 className='text-blue-400 font-bold pb-[20px]'>USA</h5>
+            {/* <h5 className='text-[#fff] font-bold pb-[20px]'>USA</h5> */}
+            <p className='w-[200px] pb-[20px]'>100 Franklin Square Drive.</p>
+            <p className='pb-[20px]'> Suite #104, Somerset,</p>
+            <p className='pb-[20px]'>NJ 08873</p>
+          </div>
+          <div className='pl[100px] mr-[50px] max-md:mr-0 max-md:pl-0'>
+            <h5 className='text-blue-400 font-bold pb-[20px]'>INDIA</h5>
+            <p className='w-[200px] pb-[20px]'>PU4, 3rd Floor, Sky Space,</p>
+            <p className='pb-[20px]'> Behind Malhar Mega Mall,</p>
+            <p className='pb-[20px]'>
+              Vijay Nagar, Indore, Madhya Pradesh – 452001
+            </p>
+          </div>
+          <div className='pl[100px] mr-[50px] max-md:mr-0 max-md:pl-0'>
+            <h5 className='text-blue-400 font-bold pb-[20px]'>INDIA</h5>
+            <p className='w-[200px] pb-[20px] leading-[250%]'>
+              601/602, 6th Floor, Balaji Business Park, Andheri - Kurla Rd.
+              Gamdevi, Marol Naka, Andheri East, Mumbai, Maharashtra - 400059
+            </p>
+            {/* <p className='w-[200px] pb-[20px]'>
+              601/602, 6th Floor, Balaji Business Park, Andheri - Kurla Rd.
+              Gamdevi, Marol Naka, Andheri East, Mumbai, Maharashtra - 400059
+            </p> */}
+          </div>
         </div>
       </div>
       <div className='flex justify-between w-[1024px] h-[100px]  max-md:flex-wrap  max-md:w-full max-md:h-full'>
